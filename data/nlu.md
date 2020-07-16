@@ -180,46 +180,9 @@
 - people with [2](emp_experience) years of experience
 - find me people who worked for [6](emp_experience) years
 - info of people with experience of [7](emp_experience) years
-
-## lookup:emp_location
-data/lookup_tables/cities_list.txt
+- find me employees
 
 ## intent:inform
-<!-- - [Aadithya](emp_name)
-- [Abhijit](emp_name)
-- [Agastya](emp_name)
-- [Ajay](emp_name)
-- [Arya](emp_name)
-- [Arjun](emp_name)
-- [Anu](emp_name)
-- [Bala](emp_name)
-- [Bhanu](emp_name)
-- [Babita](emp_name)
-- [Balachandra](emp_name)
-- [Chinmay](emp_name)
-- [Chandu](emp_name)
-- [Chaitanya](emp_name)
-- [Chandan](emp_name)
-- [Dhanush](emp_name)
-- [Deb](emp_name)
-- [Dev](emp_name)
-- [David](emp_name)
-- [Divya](emp_name)
-- [Eesha](emp_name)
-- [Eshwar](emp_name)
-- [Faisal](emp_name)
-- [Gayatri](emp_name)
-- [Hari](emp_name)
-- [Karan](emp_name)
-- [Navin](emp_name)
-- [Pranay](emp_name)
-- [Rupa](emp_name)
-- [Rao](emp_name)
-- [Ram](emp_name)
-- [Reddy](emp_name)
-- [Surya](emp_name)
-- [Som](emp_name)
-- [Shaik](emp_name) -->
 - [sai akhilesh](emp_name)
 - [bhaskar polasani](emp_name)
 - [rajyashree](emp_name)
@@ -233,7 +196,6 @@ data/lookup_tables/cities_list.txt
 - [bharath](emp_name)
 - [soumya](emp_name)
 - [sindhuja](emp_name)
-- [priyanka](emp_name)
 - [bhaskarreddy](emp_name)
 - [rohith](emp_name)
 - [gayas shaik](emp_name)
@@ -269,10 +231,10 @@ data/lookup_tables/cities_list.txt
 - [vinodh](emp_name)
 - [nidhi](emp_name)
 - [kanchan yadav](emp_name)
-- [anuradha](emp_name) 
-- [harinath](emp_name) 
-- [Bamandla Narasimha](emp_name) 
-- [rajsree](emp_name) 
+- [anuradha](emp_name)
+- [harinath](emp_name)
+- [Bamandla Narasimha](emp_name)
+- [rajsree](emp_name)
 - [Agra](emp_location)
 - [Ahmedabad](emp_location)
 - [Amravati](emp_location)
@@ -322,3 +284,8 @@ data/lookup_tables/cities_list.txt
 - [by_name](search_type)
 - [by_location](search_type)
 - [by_experience](search_type)
+- [chandana](emp_name)
+- [hyderabad](emp_location)
+
+## lookup:cities_list.txt
+  data/lookup_tables/cities_list.txt
