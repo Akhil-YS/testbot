@@ -1,1 +1,0 @@
-powershell -noexit -Command "& {set-location 'E:\Office\Chatbot\rasa_dev\venv\Scripts' ; .\activate ; set-location 'E:\Office\Chatbot\rasa_dev\donna_bot_2' }"
