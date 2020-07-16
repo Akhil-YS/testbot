@@ -1,0 +1,324 @@
+## intent:greet
+- hi
+- hey
+- hello
+- hi there
+- hey there
+- hello there
+- Hi bot
+- hey bot
+- hello bot
+- morning
+- good morning
+- goodmorning
+- good afternoon
+- goodafternoon
+- good evening
+- goodevening
+- hi again
+- hello again
+- hi Mister
+- hi pal!
+- greetings
+- hi anybody there ?
+- hi is anybody there ?
+- hello is somebody there?
+- hi robot
+- hey robot
+- hello robot
+
+## intent:goodbye
+- bye
+- Bye
+- Bye!
+- Goodbye
+- goodbye
+- good bye
+- see you around
+- see you later
+- thanks
+- thankyou
+- thank you
+- thank you bye
+- thank you good bye
+- thank you goodbye
+- thanks goodbye
+- thank you and good bye
+- okay thanks
+- okay thank you
+- okay cool good bye thank you
+- okay thank you good bye
+- okay thank you goodbye
+- thats all thank you and good bye
+- thats it
+- thats it thanks
+- thats it thanks bye
+- thats it thanks goodbye
+- thats it thank you
+- thats it thankyou bye
+- See you later
+- Bye bot
+- Goodbye friend
+- bye for now
+- catch you later
+- gotta go
+- got to go
+- See you
+- see ya
+- have a nice day
+- i'm off
+- see you later alligator
+- talk to you again
+- wow thanks
+
+## intent:affirm
+- ya
+- ye
+- yes
+- yeah
+- yes yes
+- yeah yeah
+- yea
+- indeed
+- of course
+- that sounds good
+- correct
+- thats right
+- yes right
+- yes thats right
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- ok
+- okay
+
+## intent:deny
+- no
+- no no
+- never
+- not this
+- I don't think so
+- don't like that
+- no way
+- not really
+- no thanks
+- no thank you
+- nope
+- noope
+- no this does not work for me
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:request_emp_details
+- I want to know the details of an employee
+- I want to know the details of [Akhil](emp_name)
+- I want to know the details of an employee of ritwik
+- I want you to give me the details of an employee
+- I want you to give me the details of [sunny](emp_name)
+- I want to know about an employee
+- I want to know about [rohith](emp_name)
+- I want to find details of an employee at riwtik
+- I want information about an employee
+- I want information about [siri](emp_name)
+- I want to know info of an employee
+- Could you find me the details of an employee?
+- Could you find me the details of [kumar](emp_name)?
+- Could you find me an employee?
+- Give me the details of an employee.
+- Give me the details of [varun](emp_name).
+- Give me information about an employee.
+- Find me the details of an [priya](emp_name).
+- Find me information about an employee.
+- Help me find details about an employee.
+- employee details
+- employee details of [Teja](emp_name)
+- I want to find an employee
+- find me employee details
+- info of [sai](emp_name)
+- details of [surya](emp_name)
+- information of [vinay](emp_name)
+- details of people from [jaipur](emp_location)
+- give me info of employees from [patna](emp_location)
+- info of employees from [vijaywada](emp_location)
+- give me details of employees from [noida](emp_location)
+- poeple from [vijaywada](emp_location)
+- employees from [meerut](emp_location)
+- do we have any employees from [mysore](emp_location)?
+- are they any employees from [cochin](emp_location)?
+- is there anyone from [guntur](emp_location)?
+- I want to know details of employees with [3](emp_experience) years of experience
+- Give me information of employees with [5](emp_experience) years of experience
+- Find me employees with [4](emp_experience) years of experience
+- people with [2](emp_experience) years of experience
+- find me people who worked for [6](emp_experience) years
+- info of people with experience of [7](emp_experience) years
+
+## lookup:emp_location
+data/lookup_tables/cities_list.txt
+
+## intent:inform
+<!-- - [Aadithya](emp_name)
+- [Abhijit](emp_name)
+- [Agastya](emp_name)
+- [Ajay](emp_name)
+- [Arya](emp_name)
+- [Arjun](emp_name)
+- [Anu](emp_name)
+- [Bala](emp_name)
+- [Bhanu](emp_name)
+- [Babita](emp_name)
+- [Balachandra](emp_name)
+- [Chinmay](emp_name)
+- [Chandu](emp_name)
+- [Chaitanya](emp_name)
+- [Chandan](emp_name)
+- [Dhanush](emp_name)
+- [Deb](emp_name)
+- [Dev](emp_name)
+- [David](emp_name)
+- [Divya](emp_name)
+- [Eesha](emp_name)
+- [Eshwar](emp_name)
+- [Faisal](emp_name)
+- [Gayatri](emp_name)
+- [Hari](emp_name)
+- [Karan](emp_name)
+- [Navin](emp_name)
+- [Pranay](emp_name)
+- [Rupa](emp_name)
+- [Rao](emp_name)
+- [Ram](emp_name)
+- [Reddy](emp_name)
+- [Surya](emp_name)
+- [Som](emp_name)
+- [Shaik](emp_name) -->
+- [sai akhilesh](emp_name)
+- [bhaskar polasani](emp_name)
+- [rajyashree](emp_name)
+- [ira mishra](emp_name)
+- [sireesha](emp_name)
+- [pradeepkumar](emp_name)
+- [varun maurya](emp_name)
+- [hruthik bolly](emp_name)
+- [pragya anand](emp_name)
+- [priyanka](emp_name)
+- [bharath](emp_name)
+- [soumya](emp_name)
+- [sindhuja](emp_name)
+- [priyanka](emp_name)
+- [bhaskarreddy](emp_name)
+- [rohith](emp_name)
+- [gayas shaik](emp_name)
+- [krishnakanth](emp_name)
+- [murali](emp_name)
+- [lingareddy](emp_name)
+- [madhuchandana](emp_name)
+- [robin kumar](emp_name)
+- [omana](emp_name)
+- [pranay](emp_name)
+- [sushma](emp_name)
+- [shivalingam](emp_name)
+- [ayyappa](emp_name)
+- [venkat](emp_name)
+- [sami](emp_name)
+- [harikiran](emp_name)
+- [keerthi](emp_name)
+- [kishore](emp_name)
+- [dprao](emp_name)
+- [nikhil kumar](emp_name)
+- [sushant saurav](emp_name)
+- [sridhar](emp_name)
+- [shridhar](emp_name)
+- [manisharan](emp_name)
+- [lakshmi](emp_name)
+- [vipulkumar dave](emp_name)
+- [riyazul](emp_name)
+- [madhu](emp_name)
+- [srikanth](emp_name)
+- [rajender](emp_name)
+- [nagamani](emp_name)
+- [khaseem khan](emp_name)
+- [vinodh](emp_name)
+- [nidhi](emp_name)
+- [kanchan yadav](emp_name)
+- [anuradha](emp_name) 
+- [harinath](emp_name) 
+- [Bamandla Narasimha](emp_name) 
+- [rajsree](emp_name) 
+- [Agra](emp_location)
+- [Ahmedabad](emp_location)
+- [Amravati](emp_location)
+- [Bilaspur](emp_location)
+- [Bhubaneswar](emp_location)
+- [Bhopal](emp_location)
+- [Chandigarh](emp_location)
+- [Coimbatore](emp_location)
+- [Chittoor](emp_location)
+- [Delhi](emp_location)
+- [Durgapur](emp_location)
+- [Dehradun](emp_location)
+- [Eluru](emp_location)
+- [Firozpur](emp_location)
+- [Fatehpur](emp_location)
+- [Gandhinagar](emp_location)
+- [Gorakhpur](emp_location)
+- [Guntur](emp_location)
+- [Hyderabad](emp_location)
+- [Indore](emp_location)
+- [Jaipur](emp_location)
+- [Jodhpur](emp_location)
+- [Kakinada](emp_location)
+- [Kanpur](emp_location)
+- [Kharagpur](emp_location)
+- [Lucknow](emp_location)
+- [Mumbai](emp_location)
+- [Mysore](emp_location)
+- [Nagpur](emp_location)
+- [Ongole](emp_location)
+- [Rajkot](emp_location)
+- [Rajahmundry](emp_location)
+- [Ranchi](emp_location)
+- [Shimla](emp_location)
+- [Surat](emp_location)
+- [Thanjavur](emp_location)
+- [Tiruchirappalli](emp_location)
+- [Tenali](emp_location)
+- [Ujjain](emp_location)
+- [Vellore](emp_location)
+- [Varanasi](emp_location)
+- [Warangal](emp_location)
+- [3](emp_experience) years
+- [2](emp_experience)
+- [8](emp_experience) years of experience
+- [7](emp_experience)
+- [by_name](search_type)
+- [by_location](search_type)
+- [by_experience](search_type)

@@ -1,0 +1,73 @@
+actions:
+- emp_search_method
+- set_emp_search_method
+- utter_ask_emp_name
+- utter_ask_emp_location
+- utter_ask_emp_experience
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_select_search_method
+entities:
+- emp_name
+- emp_location
+- emp_experience
+- search_type
+forms:
+# - emp_by_name_form
+# - emp_by_location_form
+# - emp_by_experience_form
+- emp_search_form
+intents:
+- request_emp_details
+# - emp_by_name
+# - emp_by_location
+# - emp_by_experience
+- goodbye
+- greet
+- inform
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_greet:
+  - text: Hey there. I'm Donna, the AI Assistant. What can I do for you?
+  utter_ask_emp_name:
+  - text: Please provide the name of the Employee.
+  utter_ask_emp_location:
+  - text: Please provide the location of the Employee.
+  utter_ask_emp_experience:
+  - text: Please provide the number of years of Experience.
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: My pleasure serving you! Bye!
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_select_search_method:
+  - text: How do you want me to search for employee details?
+session_config:
+  carry_over_slots_to_new_session: false
+  session_expiration_time: 60
+slots:
+  emp_name:
+    type: unfeaturized
+  emp_location:
+    type: unfeaturized
+  emp_experience:
+    type: unfeaturized
+  search_type:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  
